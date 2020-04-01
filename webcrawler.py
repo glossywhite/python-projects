@@ -17,3 +17,7 @@ doc = BeautifulSoup(data, 'html.parser')
 
 staff_content = doc.find(id='tresc_wlasciwa')
 print(staff_content)
+
+links = staff_content.find_all('a')
+
+print(links)
