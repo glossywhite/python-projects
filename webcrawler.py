@@ -21,3 +21,13 @@ print(staff_content)
 links = staff_content.find_all('a')
 
 print(links)
+
+urls = []
+
+for link in links:
+    if len(link.get_text()) > 1:
+        url = link['href']
+        urls.append(url)
+
+print('Urls found:')
+print('\n'.join(urls))
