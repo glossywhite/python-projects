@@ -30,9 +30,6 @@ def main():
         print(get_details(url))
     
     
-    print('Urls found:')
-    print('\n'.join(urls))
-    
 def get_content(url):
     response = urllib.request.urlopen(url)
     data = response.read()
