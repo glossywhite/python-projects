@@ -8,6 +8,7 @@ Created on Wed Apr  1 19:34:14 2020
 import urllib.request
 from bs4 import BeautifulSoup 
 import urllib.parse
+from datetime import datetime
 
 def main():
     print('Getting staff urls...')
@@ -57,5 +58,9 @@ def get_details(url):
             email = link.get_text()
             return header.get_text() + ': ' + email
     return header.get_text() + '(no email found)'
-    
+
+start = datetime.now().timestamp()
 main()
+end = datetime.now().timestamp()
+duration = end - start
+print('Processing time = ' + str(duration))
