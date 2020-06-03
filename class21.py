@@ -7,3 +7,6 @@ Created on Wed Jun  3 10:06:03 2020
 
 import urllib.request
 from bs4 import BeautifulSoup
+
+argument = input('URL: ')
+response = urllib.request.urlopen(url)
