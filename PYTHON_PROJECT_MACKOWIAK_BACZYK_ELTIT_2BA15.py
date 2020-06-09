@@ -162,27 +162,28 @@ while True:
 #calculate which result has the highest number of 'points' after the quiz is over
 maxscore = max(result1_count, result2_count, result3_count, result4_count, result5_count,
                result6_count, result7_count, result8_count, result9_count, result10_count)
+#show the result of the quiz
 print("Your result is: ")
 if maxscore == result1_count:
     print("historical linguistics -> The study of language change over time")
 elif maxscore == result2_count:
-    print("2")
+    print("syntax -> The study of the rules that govern the structure of sentences, and which determine their relative grammaticality")
 elif maxscore == result3_count:
-    print("3")
+    print(")morphology -> The study of morphemes, the smallest units of grammatical meaning, such as inflection and affixes")
 elif maxscore == result4_count:
-    print("4")
+    print("semantics and pragmatics -> The study of meaning as encoded in language and the study of how context contributes to meaning")
 elif maxscore == result5_count:
-    print("5")
+    print("phonetics and phonology -> The study of the sounds of human speech and the sound systems of specific languages")
 elif maxscore == result6_count:
-    print("6")
+    print("sociolinguistics -> The study of variation in language and its relationship with social factors")
 elif maxscore == result7_count:
-    print("7")
+    print("psycholinguistics and neurolinguistics -> The study of the psychological and neurobiological factors that enable humans to acquire, use, and understand language")
 elif maxscore == result8_count:
-    print("8")
+    print("language acquisition -> The study of how children and adults acquire language knowledge and ability")
 elif maxscore == result9_count:
-    print("9")
+    print("cognitive linguistics -> The study of language and cognition (thinking)")
 elif maxscore == result10_count:
-    print("10")
+    print(")evolutionary linguistics -> The study of the psychosocial and cultural factors involved in the origin of language and the development of linguistic universals")
 
 
 
