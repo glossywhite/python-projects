@@ -157,3 +157,50 @@ while True:
 #q19
     
 #q20
+    
+
+#calculate which result has the highest number of 'points' after the quiz is over
+maxscore = max(result1_count, result2_count, result3_count, result4_count, result5_count,
+               result6_count, result7_count, result8_count, result9_count, result10_count)
+print("Your result is: ")
+if maxscore == result1_count:
+    print("historical linguistics -> The study of language change over time")
+elif maxscore == result2_count:
+    print("2")
+elif maxscore == result3_count:
+    print("3")
+elif maxscore == result4_count:
+    print("4")
+elif maxscore == result5_count:
+    print("5")
+elif maxscore == result6_count:
+    print("6")
+elif maxscore == result7_count:
+    print("7")
+elif maxscore == result8_count:
+    print("8")
+elif maxscore == result9_count:
+    print("9")
+elif maxscore == result10_count:
+    print("10")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
