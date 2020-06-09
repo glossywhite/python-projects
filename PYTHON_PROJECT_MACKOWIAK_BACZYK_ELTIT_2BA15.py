@@ -234,7 +234,7 @@ while True:
 #calculate which result has the highest number of 'points' after the quiz is over
 maxscore = max(result1_count, result2_count, result3_count, result4_count, result5_count,
                result6_count, result7_count, result8_count, result9_count, result10_count)
-#show the result of the quiz
+#show the result of the quiz and provide user with a link from google
 print("Your result is: ")
 if maxscore == result1_count:
     print("historical linguistics -> The study of language change over time")
