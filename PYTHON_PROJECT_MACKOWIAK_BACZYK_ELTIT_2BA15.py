@@ -118,3 +118,22 @@ elif question_10 == 'b':
     print("You've chosen b")
 else: 
     print("Incorrect answer: type a or b")  
+#q11
+    
+#q12
+    
+#q13
+    
+#q14
+    
+#q15
+    
+#q16
+
+#q17
+    
+#q18
+    
+#q19
+    
+#q20
