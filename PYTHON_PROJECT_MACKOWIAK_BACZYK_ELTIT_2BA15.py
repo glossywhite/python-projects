@@ -139,7 +139,16 @@ while True:
         break
     print("Incorrect answer: type a or b")  
 #q11
-    
+while True:
+    question_11 = input("Would you like to explore the idea of why certain strings of letters and words have certain meaning and why some of them are context dependent ? a) yes b) no")
+    if question_11 == 'a':
+        result4_count += 1
+        print("You've chosen a")
+        break
+    elif question_11 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q12
     
 #q13
