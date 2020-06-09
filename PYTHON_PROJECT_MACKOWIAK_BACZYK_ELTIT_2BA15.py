@@ -134,7 +134,6 @@ while True:
         print("You've chosen a")
         break
     elif question_10 == 'b':
-        result2_count += 1
         print("You've chosen b")
         break
     print("Incorrect answer: type a or b")  
@@ -150,23 +149,106 @@ while True:
         break
     print("Incorrect answer: type a or b")    
 #q12
-    
+while True:
+    question_12 = input("Would you like to acknowledge the rules standing behind word formation ?  a) yes b) no")
+    if question_12 == 'a':
+        result3_count += 1
+        print("You've chosen a")
+        break
+    elif question_12 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q13
-    
+while True:
+    question_13 = input("Would you like to find out more about physical properties of sounds ?  a) yes b) no")
+    if question_13 == 'a':
+        result5_count += 1
+        print("You've chosen a")
+        break
+    elif question_13 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q14
-    
+while True:
+    question_14 = input("Would you like to know more about how do we perceive sounds of other languages ?  a) yes b) no")
+    if question_14 == 'a':
+        result8_count += 1
+        print("You've chosen a")
+        break
+    elif question_14 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q15
-    
+while True:
+    question_15 = input("Would you like to examine language production and language comprehension from psychological point of view ?  a) yes b) no")
+    if question_15 == 'a':
+        result7_count += 1
+        print("You've chosen a")
+        break
+    elif question_15 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q16
-
+while True:
+    question_16 = input("Do you prefer a) theoretical knowledge b) practical knowledge")
+    if question_16 == 'a':
+        result9_count += 1
+        print("You've chosen a")
+        break
+    elif question_16 == 'b':
+        result2_count += 1
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")
 #q17
-    
+while True:
+    question_17 = input("Do you like to a) follow the rules b) create them")
+    if question_17 == 'a':
+        result2_count += 1
+        print("You've chosen a")
+        break
+    elif question_17 == 'b':
+        result8_count += 1
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q18
-    
+while True:
+    question_18 = input("Would you like to study meaning of language in terms of words and sentence relationships ?  a) yes b) no")
+    if question_18 == 'a':
+        result4_count += 1
+        print("You've chosen a")
+        break
+    elif question_18 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q19
-    
+while True:
+    question_19 = input("Would like to know what and how shapes our language ?  a) yes b) no")
+    if question_19 == 'a':
+        result6_count += 1
+        print("You've chosen a")
+        break
+    elif question_19 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 #q20
-    
+while True:
+    question_20 = input("Do you think that history is crucial to understand present events and phenomena ?  a) yes b) no")
+    if question_20 == 'a':
+        result1_count += 1
+        print("You've chosen a")
+        break
+    elif question_20 == 'b':
+        print("You've chosen b")
+        break
+    print("Incorrect answer: type a or b")    
 
 
 
